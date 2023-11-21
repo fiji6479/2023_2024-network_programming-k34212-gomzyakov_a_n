@@ -15,3 +15,5 @@ Lab: Lab1
 Date of create: 21.11.2023
 
 Date of finished: 22.11.2023
+
+# Отчет по лабораторной работе №1 "Установка CHR и Ansible, настройка VPN"" #
