@@ -77,8 +77,7 @@ type C:\Users\skist\.ssh\id_ed25519.pub | clip
 sudo apt-get update \
 sudo apt install python3-pip \
 ls -la /usr/bin/python3.6 \
-sudo pip3 install ansible\ 
-ansible --version \
+sudo pip3 install ansible
 
 ![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/2fd04302-0392-4330-8a90-d418772cd598)
 
