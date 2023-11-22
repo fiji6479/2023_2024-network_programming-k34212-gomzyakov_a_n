@@ -12,7 +12,7 @@ Author: Gomzyakov Alexander Nikolaevich
 
 Lab: Lab1
 
-Date of create: 21.11.2023
+Date of create: 18.11.2023
 
 Date of finished: 22.11.2023
 
