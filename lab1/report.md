@@ -32,6 +32,8 @@ Date of finished: 22.11.2023
 Для того чтобы создать и скопировать ssh-ключ воспользуемся двумя командами:
   ssh-keygen -t ed25519
 
+  
+  
   type C:\Users\skist\.ssh\id_ed25519.pub | clip
 
 ![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/9c24f515-bf49-42ec-aa78-beeaca2e72a9)
