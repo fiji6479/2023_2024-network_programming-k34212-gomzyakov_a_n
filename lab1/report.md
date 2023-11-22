@@ -62,3 +62,11 @@ type C:\Users\skist\.ssh\id_ed25519.pub | clip
 ![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/29824f76-b969-4331-a64e-1cd9fcd65130)
 
 Теперь с помощью winbox подключимся к CHR (используя логин, пароль, MAC-адрес)
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/0fa80880-d35c-4554-8c91-d831b3370b54)
+
+Подключение произошло успешно 
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/407182e5-1d46-40c4-b10c-72387cf5dcda)
+
+### Настройка VPN сервера ###
