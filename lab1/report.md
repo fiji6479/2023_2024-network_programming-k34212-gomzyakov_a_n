@@ -43,7 +43,9 @@ type C:\Users\skist\.ssh\id_ed25519.pub | clip
 
 ![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/6f3cacdf-5dbd-48cd-bb92-07884fd71a01)
 
+
 Попробуем к ней подключиться с помощью команды ssh admin@158.160.58.60
 
 ![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/cc6a61e7-80f8-4552-8564-2db148846d40)
 
+### Создание виртуальной машины RouterOS и подключение к ней через winbox ###
