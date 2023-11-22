@@ -30,6 +30,8 @@ Date of finished: 22.11.2023
 ![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/afeae0d4-ad06-444f-886a-71449c86b2ea)
 
 Для того чтобы создать и скопировать ssh-ключ воспользуемся двумя командами:
+
+
 ssh-keygen -t ed25519 
 
 
