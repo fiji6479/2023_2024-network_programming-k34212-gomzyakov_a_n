@@ -70,3 +70,6 @@ type C:\Users\skist\.ssh\id_ed25519.pub | clip
 ![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/407182e5-1d46-40c4-b10c-72387cf5dcda)
 
 ### Настройка VPN сервера ###
+
+
+яавычс
