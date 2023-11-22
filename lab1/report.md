@@ -57,3 +57,8 @@ type C:\Users\skist\.ssh\id_ed25519.pub | clip
 
 ![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/9cada01c-2e45-401e-82de-e54f4ce7435c)
 
+После этого запустим нашу виртуальную машину 
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/29824f76-b969-4331-a64e-1cd9fcd65130)
+
+Теперь с помощью winbox подключимся к CHR (используя логин, пароль, MAC-адрес)
