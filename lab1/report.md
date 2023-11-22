@@ -49,3 +49,11 @@ type C:\Users\skist\.ssh\id_ed25519.pub | clip
 ![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/cc6a61e7-80f8-4552-8564-2db148846d40)
 
 ### Создание виртуальной машины RouterOS и подключение к ней через winbox ###
+Первым делом скачем образ RouterOS с официального сайта MikroTik и установим его с помощью virtualbox
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/42ab814c-cf6d-4a2f-a3db-4a8b96d066fd)
+
+Далее настроим сетевой мост
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/9cada01c-2e45-401e-82de-e54f4ce7435c)
+
