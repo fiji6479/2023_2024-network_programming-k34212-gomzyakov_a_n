@@ -30,4 +30,14 @@ C:\>"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" internalcommands sethduu
 
 ### OVPN Client на втором CHR ###
 После этого проедлаем те же действия как и в первой лабораторной работе и получим следующий результат
-![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/b00fc165-f971-4be7-8caa-244aa6c57471)
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/0187f297-5470-4558-9085-f2165977b3af)
+
+### Используя ansible настроим CHR на двух ВМ ###
+Первым делом установим библиотеку для работы ansible-ssh c помощью следующий команды:
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/790e0653-1079-47dd-926b-8adde6e0d34b)
+
+После этого узнаем IP CHR и проверим подключения с помощью ssh.
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/bd5f08fe-f907-46c5-a0e3-0c0c0c41750f)
+
