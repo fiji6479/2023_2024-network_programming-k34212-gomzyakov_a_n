@@ -60,7 +60,7 @@ C:\>"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" internalcommands sethduu
 ### Проверка работы на CHR ###
 Результаты пингов проверки локальной связности:
 
-![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/f3f14bf8-4113-4a55-89e2-5f5cf29b43d0)
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/04992ba8-439c-401e-bc9d-59c905e1c3dc)
 
 Созданные на машинах пользователи и NTP Clients
 
