@@ -72,7 +72,7 @@ C:\>"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" internalcommands sethduu
 
 ![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/116e1c7e-a5cc-443b-8dc1-047f39a95b74)
 
-проверка OSPF
+Проверка OSPF
 
 ВМ1:
 
@@ -81,3 +81,6 @@ C:\>"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" internalcommands sethduu
 ВМ2:
 
 ![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/cd263caa-5c76-466d-ada6-84d8f2313551)
+
+## Вывод ##
+В ходе выполнения лабораторной работы с помощью ansible были настроены сетевые устройства. Также на роутерах были настроены: логин/пароль для нового пользователя, NTP client, ospf с указанием router id, а также были собраны данные настройки роутеров
