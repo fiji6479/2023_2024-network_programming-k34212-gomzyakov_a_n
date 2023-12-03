@@ -50,7 +50,7 @@ C:\>"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" internalcommands sethduu
 ![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/7b82ebe2-3cc0-4fe7-ba7a-4f9b79e4f424)
 
 Теперь создадим ansible-playbook файл с командами для настройки конфигураций.
-![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/496a58c0-52ee-4e21-8d22-5a4933546ee6)
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/841f1974-6a0a-40b6-a608-e3c71b592f1a)
 
 Проверим работу с помощью следующей команды: 
 
