@@ -63,14 +63,17 @@ C:\>"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" internalcommands sethduu
 ![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/f3f14bf8-4113-4a55-89e2-5f5cf29b43d0)
 
 Созданные на машинах пользователи и NTP Clients
+
 ВМ1:
 
 ![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/b2a03992-47ba-4928-bfe9-8b41e8506d4d)
+
 ВМ2:
 
 ![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/116e1c7e-a5cc-443b-8dc1-047f39a95b74)
 
 проверка OSPF
+
 ВМ1:
 
 ![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/df102484-4abd-434d-8a3a-300009befc94)
