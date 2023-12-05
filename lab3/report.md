@@ -10,7 +10,7 @@ Group: K34212
 
 Author: Gomzyakov Alexander Nikolaevich
 
-Lab: Lab2
+Lab: Lab3
 
 Date of create: 04.12.2023
 
