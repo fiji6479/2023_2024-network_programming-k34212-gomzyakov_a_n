@@ -37,6 +37,8 @@ Date of finished: 07.12.2023
 
 ![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/a4c48178-93b6-426d-9159-a12428a7ab58)
 
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/959210a3-d3c9-4465-8862-539948169e1c)
+
 ### Implementing Basic Forwarding ###
 
 
