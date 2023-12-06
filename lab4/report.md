@@ -25,6 +25,17 @@ Date of finished: 07.12.2023
 
 ### Подготовка среды ###
 
+Первым делом проверим что установлен vagrant и Virtualbox
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/1a6554c0-db19-4e4d-8d65-330066e0bb4f)
+
+Далее склонируем репозиторий p4lang/tutorials
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/a3c21538-b21b-4850-af63-361353fa1ac0)
+
+Запустим vagrant с помощью команды vagrant up
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/a4c48178-93b6-426d-9159-a12428a7ab58)
 
 ### Implementing Basic Forwarding ###
 
