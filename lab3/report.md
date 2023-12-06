@@ -83,4 +83,29 @@ sudo systemctl enable postgresql
 ![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/94957c27-918b-4b93-bfc3-31251d89855a)
 
 ### Заполнение информации о CHR в Netbox ###
+В веб-интерфейсе был создан сайт, мануфактура, тип устройства, функция устройства и само устройство – chr1 и chr2. Для указания IP-адресов устройств необходимо было создать интерфейсы
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/b5dbe90b-3eed-484c-85a2-793c01ad3416)
+
+### Сохранение всех данных из Netbox в отдельный файл ###
+
+Установим insible модули для Netbox
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/2bd78d86-1cdc-473c-9f6d-ea5e4f74a55a)
+
+Далее создадим токен который нам понадобися в будущем.
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/488e3cf0-2b0b-40e7-9b73-a0a61d7d3afa)
+
+Теперь заполним файл netbox_conf.yml следующими данными (Здесь нам пригодится токен который мы зарнее создали)
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/82e3ef44-d57e-4792-b0b2-5ca99729dd92)
+
+Сохраним всю информацию в файл netbox_inventory.yml с помощью команды:
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/f4551793-8492-42b0-9260-350792305986)
+
+Проверим содержимое файла
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/392e17d5-edc6-4102-b247-3695e57dbf94)
 
