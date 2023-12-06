@@ -85,13 +85,13 @@ sudo systemctl enable postgresql
 ### Заполнение информации о CHR в Netbox ###
 В веб-интерфейсе был создан сайт, мануфактура, тип устройства, функция устройства и само устройство – chr1 и chr2. Для указания IP-адресов устройств необходимо было создать интерфейсы
 
-![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/b5dbe90b-3eed-484c-85a2-793c01ad3416)
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/1d0ec8c1-e5d8-4f7f-947a-97e3e176a3ec)
 
 ### Сохранение всех данных из Netbox в отдельный файл ###
 
 Установим insible модули для Netbox
 
-![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/2bd78d86-1cdc-473c-9f6d-ea5e4f74a55a)
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/9ff23193-904b-4ed2-bfb2-0a5399f64ea8)
 
 Далее создадим токен который нам понадобися в будущем.
 
@@ -113,3 +113,49 @@ sudo systemctl enable postgresql
 
 ![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/53564f2a-45ea-4c29-bb64-b27b06a29f55)
 
+### Сценарий для изменения имени и IP ###
+Теперь напишем playbook для изменения имени устройства и IP.
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/cdfe399c-f6dd-47d3-9a3c-24ff3458210a)
+
+Запустим playbook с помощью следующей команды 
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/352e7e99-2b49-4771-a14b-fca54aeda147)
+
+Как можем заметить изменения вступили в силу
+
+CHR1:
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/771f43b1-a687-4389-9476-ba439d0b6d2c)
+
+CHR2:
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/c65968d1-4093-411b-b397-4b4969d839ff)
+
+### Сценарий для внесения серийного номера ###
+
+Создадим сценарий playybook который собирает серийный номер и вносит его в netbox
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/b4d5a5f1-d221-4099-b1b9-07a929e0d946)
+
+Запустим этот сценарий с помощью этой команды:
+
+ansible-playbook -i inventory serial_num-playbook.yml
+
+Проверим добавленные серийные номера
+
+CHR1:
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/7dc4e599-0e59-4e5c-b29f-5c72d35627d3)
+
+CHR2:
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/2d42a851-dde6-4564-8223-0ed14871eacc)
+
+### Сеть ###
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/c47b7b8a-4d42-4b54-afd1-904a9f152c76)
+
+## Вывод ##
+
+В ходк выполнения лабораторной работы был настроен Netbox. В свою очередь с помощью Netbox и Ansible получилось собрать всю неоюходимую информацию, а также добавить некоторую информацию.
