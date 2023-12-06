@@ -8,7 +8,7 @@ all:
     ungrouped:
       hosts:
         chr1:
-          ansible_host: 172.27.224.4
+          ansible_host: 172.27.224.2
           custom_fields: {}
           device_roles:
           - router
@@ -37,18 +37,18 @@ all:
             enabled: true
             id: 1
             ip_addresses:
-            - address: 172.27.224.4/24
-              comments: ''
+            - address: 172.27.224.2/24
+            comments: ''
               created: '2023-12-06T18:28:07.775883Z'
               custom_fields: {}
               description: ''
-              display: 172.27.224.4/24
+              display: 172.27.224.2/24
               dns_name: ''
               family:
                 label: IPv4
                 value: 4
               id: 1
-              last_updated: '2023-12-06T18:28:49.243950Z'
+              last_updated: '2023-12-06T19:50:02.999529Z'
               nat_inside: null
               nat_outside: []
               role: null
@@ -56,7 +56,7 @@ all:
                 label: Active
                 value: active
               tags: []
-               tenant: null
+              tenant: null
               url: http://127.0.0.1:8000/api/ipam/ip-addresses/1/
               vrf: null
             l2vpn_termination: null
@@ -99,7 +99,7 @@ all:
           locations: []
           manufacturers:
           - mikrotik
-          primary_ip4: 172.27.224.4
+          primary_ip4: 172.27.224.2
           regions: []
           serial: ''
           services: []
@@ -110,8 +110,8 @@ all:
             label: Active
             value: active
           tags: []
-          chr2:
-          ansible_host: 172.27.224.5
+        chr2:
+          ansible_host: 172.27.224.3
           custom_fields: {}
           device_roles:
           - router
@@ -140,25 +140,25 @@ all:
             enabled: true
             id: 2
             ip_addresses:
-            - address: 172.27.224.5/24
+            - address: 172.27.224.3/24
               comments: ''
               created: '2023-12-06T18:28:35.168402Z'
               custom_fields: {}
               description: ''
-              display: 172.27.224.5/24
+              display: 172.27.224.3/24
               dns_name: ''
               family:
                 label: IPv4
                 value: 4
               id: 2
-              last_updated: '2023-12-06T18:28:35.168430Z'
+              last_updated: '2023-12-06T19:50:09.834265Z'
               nat_inside: null
               nat_outside: []
               role: null
               status:
                 label: Active
                 value: active
-              tags: []
+                tags: []
               tenant: null
               url: http://127.0.0.1:8000/api/ipam/ip-addresses/2/
               vrf: null
@@ -202,7 +202,7 @@ all:
           locations: []
           manufacturers:
           - mikrotik
-          primary_ip4: 172.27.224.5
+          primary_ip4: 172.27.224.3
           regions: []
           serial: ''
           services: []
