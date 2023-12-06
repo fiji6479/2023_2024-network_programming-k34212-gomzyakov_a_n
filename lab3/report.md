@@ -109,3 +109,7 @@ sudo systemctl enable postgresql
 
 ![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/392e17d5-edc6-4102-b247-3695e57dbf94)
 
+Отредактируем файл который только что создали и перенес переменные для подключения к роутерам.
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/53564f2a-45ea-4c29-bb64-b27b06a29f55)
+
