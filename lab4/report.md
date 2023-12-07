@@ -1,4 +1,3 @@
-University: [ITMO University](https://itmo.ru/ru/)
 
 Faculty: [FICT](https://fict.itmo.ru)
 
@@ -90,3 +89,53 @@ make clean
 Как можем заметить все пинги проходят успешно, следовательно мы сделали все правильно
 
 ### Implementing Basic Tunneling ###
+
+В этом задании требуется создать туннелирование для следующей сети:
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/dbc7d55f-6908-4f5f-b70e-64117c2d92d6)
+
+Для этого откроем файл basic_tunnel.p4 и посмотрим что уже реализовано.
+
+Как можем заметить, нам необходимо добавить обработку заголовков(etherType и myTunnel). Если соответствие есть, то распаковываем myTunnel, если ipv4 инкапсулирвоан в myTunnel, то распакавываем и его:
+
+![изображение (149)](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/cffd860d-3ccb-4e17-a899-e6578d861e9d)
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/724fdb51-5651-420f-92e2-e9bde0d2c304)
+
+Создадим новое действие myTunnel_forward использующиеся для пересылки. 
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/234e3371-1600-4823-add0-0831142c3fad)
+
+Добавляем таблицу, аналогичную ipv4_lpm, но переадресацию заменяем на туннельную. 
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/40a120de-80c0-48f2-a309-ac0026a9734d)
+
+Обновим блок apply в блоке управления MyIngress, для того чтобы применить вновь определенную таблицу. 
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/bd137d35-080a-4066-9b3a-bf094b8bdb87)
+
+Теперь добавим deparse
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/5a8f5e6f-aba6-42e4-8dab-cd710a7f4524)
+
+Теперь проверим работу скрипта. Для этого сначала перейдем в директорию basic_tunnel и выполним make run. Далее откроем терминал h1 и h2
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/c120250a-fd71-478f-9387-7396e340fe43)
+
+Теперь попробуем отправить сообщение с h1 на h2 "Merry Christmas"
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/219fb696-2391-4579-9c05-82da00f59e67)
+
+Далее запустим проверку туннелирования:
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/da62cac8-d9c4-4fb5-9edd-09f1a229c41b)
+
+Теперь с h1 запущен пакет, который должен прийти в h3 и через myTunnel прийти в h2:
+
+![изображение](https://github.com/fiji6479/2023_2024-network_programming-k34212-gomzyakov_a_n/assets/71012423/a8da3f20-ee62-4213-bb52-fef572b7f23b)
+
+Как можем заметить коммутатор больше не использует IP-заголовок для маршрутизации. Все потму что в пакете присутствует заголовок MyTunnel.
+
+## Вывод ##
+
+В ходе выполнения лабораторной работы был изучен синтаксис p4 и выполнены два ознакомительных задания. В ходе выполнения работы возникили трудности, но они связанны с невнимательностью. 
